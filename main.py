@@ -1,6 +1,9 @@
-def print_hi(name) -> None:
-    print(f"Hi, {name}")
+from application import generate_profile
 
 
-if __name__ == "__main__":
-    print_hi("PyCharm")
+def main() -> None:
+    print(generate_profile())
+
+
+if __name__ == '__main__':
+    main()

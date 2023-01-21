@@ -1,1 +1,2 @@
 .PHONY: run
+run:

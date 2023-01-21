@@ -1,6 +1,5 @@
 #For generation
 faker==16.6.0
-
 #pre-commit hook
 pre-commit==2.21.0
 #for style(spaces)
