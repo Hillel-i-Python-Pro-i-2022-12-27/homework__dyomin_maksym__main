@@ -1,1 +1,1 @@
-from text_generator import generate_profile
+from .text_generator import generate_profile
