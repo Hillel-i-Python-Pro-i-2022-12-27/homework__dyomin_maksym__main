@@ -1,0 +1,14 @@
+name: main-workflow
+run-name: ${{ github.actor }} workflow
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+          python: '3.11'
+      - run: npm install -g bats
+      - run: bats -v
