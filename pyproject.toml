@@ -1,0 +1,13 @@
+[black]
+target-version = ['py311']
+extend-exclude = '''
+venv
+'''
+line-length = 120
+
+[autoflake]
+check=true
+--remove-all-unused-imports = true
+--remove-unused-variables = true
+--remove-duplicate-keys = true
+--in-place = true
