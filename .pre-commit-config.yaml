@@ -24,3 +24,11 @@ repos:
         language: system
         types:
           - python
+
+      - id: pyupgrade
+        name: pyupgrade
+        entry: pyupgrade
+        description: "The Uncompromising Code Formatter"
+        language: system
+        types:
+          - python

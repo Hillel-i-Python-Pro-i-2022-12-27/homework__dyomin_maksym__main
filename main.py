@@ -5,5 +5,5 @@ def main() -> None:
     print(generate_profile())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
