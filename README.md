@@ -7,7 +7,8 @@
 * `make pre-commit run` / `make pre-commit run-all` -> to run tools for files / all files
 
 
-
+![testing](https://img.shields.io/badge/testing-badge-yellow)
+![testing](https://img.shields.io/badge/testing-badge-blue)
 
 
 
