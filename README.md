@@ -1,5 +1,15 @@
 #Simple data generator using fake
 ---------------------------------
-![Twitch Status](https://img.shields.io/twitch/status/10metertom?style=social)
+* `make d-run`    -> to run from zero
+* `make d-purge`    -> to purge all related data
+* `make init-dev`    -> to install requirements & init environment
+* `make run-main`    -> to run script
+* `make pre-commit run` / `make pre-commit run-all` -> to run tools for files / all files
 
-![testing](https://img.shields.io/badge/testing-badge-blueviolet)
+
+
+
+
+
+![testing](https://img.shields.io/badge/testing-badge-yellow)
+![testing](https://img.shields.io/badge/testing-badge-blue)
