@@ -7,7 +7,3 @@
 * `make pre-commit run` / `make pre-commit run-all` -> to run tools for files / all files
 
 
-
-
-
-
