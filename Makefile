@@ -35,9 +35,9 @@ init-dev:
 	pip install --requirement requirements.txt && \
 	pre-commit install
 
-.PHONY: homework-i-run
-# Run homework.
-homework-i-run:
+.PHONY: run-main
+# Run main
+run-main:
 	@python main.py
 
 .PHONY: homework-i-purge
