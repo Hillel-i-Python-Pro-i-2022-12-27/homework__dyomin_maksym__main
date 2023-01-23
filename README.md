@@ -1,3 +1,5 @@
 #Simple data generator using fake
 ---------------------------------
-https://badgen.net/docker/layers/lucashalbert/curl/latest/arm/v7?icon=docker&label=layers
+![Twitch Status](https://img.shields.io/twitch/status/10metertom?style=social)
+
+![testing](https://img.shields.io/badge/testing-badge-blueviolet)
